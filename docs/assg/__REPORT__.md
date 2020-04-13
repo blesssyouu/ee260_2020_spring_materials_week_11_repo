@@ -1,11 +1,12 @@
 ---
-title: 
-author:
+title: week 12 assignment
+author: amanda achiu
 partner:
-date:
+date: 4/13/20
 ---
 ## (5 pts)
 Capture the following system behavior as an HLSM. The system counts the number of events on a single-bit input B and always outputs that number unsigned on a 16-bit output C, which is initially 0. An event is a change from 0 to 1 or from 1 to 0. Assume the system count rolls over when the maximum value of C is reached.
+https://imgur.com/a/rIMQF21
 
 ## (5 pts)
 Create a high-level state machine that initializes a 16x32 register file’s contents to 0s, beginning the initialization when an input rst becomes 1. The register file does not have a clear input; each register must be individually written with a 0. Do not define 16 states; instead, declare a local storage item so that only a few states need to be defined. 
